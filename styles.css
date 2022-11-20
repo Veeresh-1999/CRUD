@@ -1,0 +1,95 @@
+body{
+    /* background-color: rgb(215, 208, 208);   */
+    background: linear-gradient(
+        to bottom right,
+        gray, #e4efe9
+    );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body > table{
+    width: 80%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    padding: 13px 0;
+    background-color: rgb(98, 249, 249);
+    text-align: center;
+    height: 3rem;
+}
+table{
+    border-collapse: collapse;
+    margin:50px auto;
+    background-color: rgb(162, 249, 184);
+    /* padding: 50px; */
+}
+
+
+table.list{
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color: #89f389;
+}
+
+label{
+    font-size: 20px;
+}
+
+input[type=text], input[type=number], input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+input[type=radio]{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline;
+}
+
+input[type=submit]{
+    font-size: 20px;
+    width: 30%;
+    background-color: rgb(21, 213, 43);
+    color: #000;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form div.form-action-buttons{
+    text-align: right;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
